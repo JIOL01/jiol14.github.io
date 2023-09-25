@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Playlist- Store</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <header class="site-header sticky-top py-1">
+        <nav class="container d-flex flex-column flex-md-row justify-content-between">
+          <a class="py-2" href="#" aria-label="Product">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+          </a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Producto</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Características</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Empresa</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Soporte</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Precios</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Carro</a>
+        </nav>
+      </header>
+      
+      <main>
+
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center" style="background-color: #1f1f1f; color: #ffff;">
+          <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 fw-normal">PLAYLIST</h1>
+            <p class="lead fw-normal">Las mejores canciones a nivel mundial con los artistas más reconocidos en el mundo. No te lo pierdas
+              que esperas comienza a reproducir la música.
+            </p>
+            <a class="btn btn-outline-secondary" href="#">Pronto Nuevos Productos</a>
+          </div>
+          <div class="product-device shadow-sm d-none d-md-block"></div>
+          <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+        </div>
+      
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3" style="justify-content: center;">
+
+          <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="color: #ffff; background-color: #678a84">
+
+            <div class="my-3 py-3">
+                <h2 class="display-5">Safe And Sound</h2>
+                <p class="lead">Capital Cities - Official Song</p>
+              
+            </div>
+
+              <img class="img-song-video" src="Image/fts1.jpg" alt="Safe And Sound">
+
+            <div class="container-song">
+              <audio controls>
+                <source src="audio/audio1.mp3" type="audio/mpeg">
+                <source src="audio/audio1.mp3" type="audio/ogg">
+              </audio>
+            </div>
+
+          </div>
+
+          <div class=" me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="color: #ffff; background-color: #438b51;">
+            <div class="my-3 p-3">
+
+              <h2 class="display-5">Rather Be</h2>
+              <p class="lead">Clean Bandit - Jees Glyne</p>
+
+            </div>
+
+              <img class="img-song-video" src="Image/fts2.jpg" alt="Rather Be">
+
+            <div class="container-song" style="text-align: center;">
+              <audio controls>
+                <source src="audio/audio2.mp3" type="audio/mpeg">
+                <source src="audio/audio2.mp3" type="audio/ogg">
+              </audio>
+            </div>
+
+          </div>
+
+          <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="color: #ffff; background-color: #3a4d79;">
+            <div class="my-3 py-3">
+                <h2 class="display-5">Rockbye</h2>
+                <p class="lead">Clean Bandit - Feat Sean Paul</p>
+              
+            </div>
+            
+              <img class="img-song-video" src="Image/fts3.jpg" alt="Rather Be">
+      
+
+            <div class="container-song">
+              <audio controls>
+                <source src="audio/audio3.mp3" type="audio/mpeg">
+                <source src="audio/audio3.mp3" type="audio/ogg">
+              </audio>
+            </div>
+
+          </div>
+        </div>
+      
+
+
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3" style="justify-content: center;">
+
+          <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="color: #ffff; background-color: #50575f;">
+
+            <div class="my-3 p-3">
+              <h2 class="display-5">A Sky Full Of Stars</h2>
+              <p class="lead">Coldplay - Official Song</p>
+            </div>
+
+            
+            
+              <img class="img-song-video" src="Image/fts4.jpg" alt="Rather Be">
+            
+
+            <div class="container-song">
+              <audio controls>
+                <source src="audio/audio4.mp3" type="audio/mpeg">
+                <source src="audio/audio4.mp3" type="audio/ogg">
+              </audio>
+            </div>
+          
+          </div>
+
+          <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="color: #ffff; background-color: #e24234;">
+
+            <div class="my-3 py-3">
+                <h2 class="display-5">Cake By The Ocean</h2>
+                <p class="lead">DNCE - Official Song</p>
+              
+            </div>
+            
+              <img class="img-song-video" src="Image/fts5.jpg" alt="Rather Be">
+         
+
+            <div class="container-song">
+              <audio controls>
+                <source src="audio/audio5.mp3" type="audio/mpeg">
+                <source src="audio/audio5.mp3" type="audio/ogg">
+              </audio>
+            </div>
+
+          </div>
+
+          <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="color: #ffff; background-color: #fe62a3;">
+
+            <div class="my-3 p-3">
+              <h2 class="display-5">Say So</h2>
+              <p class="lead">Doja Cat - Official Song</p>
+            </div>
+          
+              <img class="img-song-video" src="Image/fts6.jpg" alt="Rather Be">
+            
+
+            <div class="container-song">
+              <audio controls>
+                <source src="audio/audio6.mp3" type="audio/mpeg">
+                <source src="audio/audio6.mp3" type="audio/ogg">
+              </audio>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3" style="justify-content: center;">
+
+          <div class="text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="color: #ffff; background-color: #d19f65;">
+
+            <div class="my-3 py-3">
+              <h2 class="display-5">Love Again</h2>
+              <p class="lead">Dua Lipa - Official Song</p>
+            </div>
+            
+         
+              <img class="img-song-video" src="Image/fts7.jpg" alt="Love Again">
+         
+
+            <div class="container-song">
+              <audio controls>
+                <source src="audio/audio7.mp3" type="audio/mpeg">
+                <source src="audio/audio7.mp3" type="audio/ogg">
+              </audio>
+            </div>
+
+          </div>
+
+          <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+
+            <div class="my-3 p-3">
+              <h2 class="display-5">Cold Heart PNAU</h2>
+              <p class="lead">Elton John, Dua Lipa - Remix</p>
+            </div>
+          
+            
+              <img class="img-song-video" src="Image/fts8.jpg" alt="Rather Be">
+            
+            <div class="container-song">
+              <audio controls>
+                <source src="audio/audio8.mp3" type="audio/mpeg">
+                <source src="audio/audio8.mp3" type="audio/ogg">
+              </audio>
+            </div>
+
+          </div>
+
+          <div class="text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="color: #ffff; background-color: #351a50;">
+
+            <div class="my-3 py-3">
+              <h2 class="display-5">Enemy</h2>
+              <p class="lead">Emagine Dragons - Original Song</p>
+            </div>
+            
+
+              <img class="img-song-video" src="Image/fts9.jpg" alt="Rather Be">
+            
+            <div class="container-song">
+              <audio controls>
+                <source src="audio/audio9.mp3" type="audio/mpeg">
+                <source src="audio/audio9.mp3" type="audio/ogg">
+              </audio>
+            </div>
+
+          </div>
+
+   
+
+        </div>
+
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3" style="justify-content: center;">
+          
+          <div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="color: #ffff; background-color: #a6a6a6;">
+
+            <div class="my-3 p-3">
+              <h2 class="display-5">About Damn Time</h2>
+              <p class="lead">Lizzo - Español Lyrics</p>
+            </div>
+            
+            
+              <img class="img-song-video" src="Image/fts10.jpg" alt="Rather Be">
+            
+            <div class="container-song">
+              <audio controls>
+                <source src="audio/audio10.mp3" type="audio/mpeg">
+                <source src="audio/audio10.mp3" type="audio/ogg">
+              </audio>
+            </div>
+
+          </div>
+
+        </div>
+      
+      </main>
+      
+      <footer class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+            <small class="d-block mb-3 text-muted">&copy; 2017–2022</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Características</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Cool stuff</a></li>
+              <li><a class="link-secondary" href="#">Random feature</a></li>
+              <li><a class="link-secondary" href="#">Team feature</a></li>
+              <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+              <li><a class="link-secondary" href="#">Another one</a></li>
+              <li><a class="link-secondary" href="#">Last time</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Recursos</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Resource name</a></li>
+              <li><a class="link-secondary" href="#">Resource</a></li>
+              <li><a class="link-secondary" href="#">Another resource</a></li>
+              <li><a class="link-secondary" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Más Recursos</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Business</a></li>
+              <li><a class="link-secondary" href="#">Education</a></li>
+              <li><a class="link-secondary" href="#">Government</a></li>
+              <li><a class="link-secondary" href="#">Gaming</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Acerca de:</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Team</a></li>
+              <li><a class="link-secondary" href="#">Locations</a></li>
+              <li><a class="link-secondary" href="#">Privacy</a></li>
+              <li><a class="link-secondary" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      </body>
+</html>

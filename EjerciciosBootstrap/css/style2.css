@@ -1,0 +1,127 @@
+/*EJERCICIO1*/
+
+.part-top{
+
+    background-color: #3283ba;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.color-b{
+
+    color: #5a5959;
+}
+
+.me-2{
+
+    margin: 10px;
+}
+
+.card-text{
+
+    font-size: 14px;
+}
+
+.img-paisajeC{
+
+    height: 198px;
+
+}
+
+
+/*EJERCICIO 2*/
+
+
+.img-right{
+
+    width: 200px;
+    height: 250px;
+}
+
+.blog-footer{
+
+    background-color: #212529;
+    text-align: justify;
+    color: #fff;
+}
+
+.grey-link{
+
+    color: #5a5959;
+    text-decoration: underline;
+}
+
+.tittle-magic{
+
+    font-family: 'Magic Retro', sans-serif;
+    color: #212529;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+/*EJERCICIO 3*/
+
+.table-top-list{
+
+    background-color: #daedf7;
+    color: #be9dbf;
+}
+
+.min-cero{
+
+    background-color: #d44e51;
+    color: #ffff;
+}
+
+.min-medio{
+
+    color: #ffff;
+}
+
+.min-max{
+
+    background-color: #64b960;
+    color: #ffff;
+}
+
+.ing-dolar{
+
+    background-color: #64b960;
+    color: #ffff;
+}
+
+/*EJERCICIO 4*/
+
+.part-top-video{
+
+
+    background-color: #cc0000;
+    color: #ffff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+.blog-footer{
+
+    background-color: #212529;
+    text-align: justify;
+    color: #fff;
+}
+
+
+/*EJERCICIO 5*/
+
+.img-song-video{
+
+    width: 80%;
+    height: 300px;
+    padding-bottom: 40px;
+}
+
+.display-5{
+
+    font-size: 25px;
+}
